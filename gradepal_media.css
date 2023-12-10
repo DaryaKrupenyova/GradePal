@@ -1,0 +1,65 @@
+@media (max-width:810px){
+    h1 {
+        font-size: 6em;
+    }
+
+    .subtext {
+        margin-top: 0.2em;
+    
+        font-size: 2.2em;
+    }
+    
+    a { 
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width:600px){
+    h1 {
+        font-size: 5em;
+    }
+
+    .subtext {
+        margin-top: 0.2em;
+    
+        font-size: 1.8em;
+    }
+    
+    a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:500px){
+    h1 {
+        font-size: 4em;
+    }
+
+    .subtext {
+        margin-top: 0.3em;
+        margin-bottom: 2em;
+    
+        font-size: 1.5em;
+    }
+    
+    a {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width:400px){
+    h1 {
+        font-size: 3.8em;
+    }
+
+    .subtext {
+        margin-top: 0.3em;
+        margin-bottom: 2em;
+    
+        font-size: 1.4em;
+    }
+    
+    a {
+        font-size: 1em;
+    }
+}

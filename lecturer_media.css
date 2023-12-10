@@ -1,0 +1,248 @@
+@media (max-width: 1800px) {
+    .lecturer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 35px;
+    }
+}
+
+@media (max-width: 1450px) {
+    .lecturer {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 35px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .lecturer {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .card {
+        width: 270px;
+        height: 325px;
+        border-radius: 35px;
+    }
+
+    .card > img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .fioLect {
+        font-size: 20px;
+    }
+
+    .nameSubj {
+        font-size: 13px;
+    }
+
+    .card > div > a {
+        width: 55px;
+        height: 33px;
+    }
+
+    .card > div > a > img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 720px) {
+    .notifications {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .notifications > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .notifications > span {
+        font-size: 20px;
+    }
+
+    .back_account > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .account_spans > span {
+        font-size: 15px;
+    }
+
+    .menu > div > a > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu > div > a > span {
+        font-size: 20px;
+    }
+
+    .menu_accoun > a > img {
+        width: 45px;
+        height: 45px;
+        margin-top: 6px;
+    }
+
+    main {
+        left: 90px;
+        width: calc(100% - 90px);
+    }
+
+    .lecturer {
+        grid-template-columns: 1fr;
+        row-gap: 35px;
+    }
+
+    .card {
+        width: 330px;
+        height: 360px;
+        border-radius: 40px;
+    }
+
+    .card > img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 3%;
+    }
+
+    .fioLect {
+        font-size: 22px;
+    }
+
+    .nameSubj {
+        font-size: 14px;
+    }
+
+    .card > div > a {
+        width: 60px;
+        height: 35px;
+    }
+}
+
+@media (max-height: 600px) {
+    header {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .card {
+        width: 270px;
+        height: 325px;
+        border-radius: 35px;
+    }
+
+    .card > img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 15px;
+    }
+
+    .fioLect {
+        font-size: 20px;
+    }
+
+    .nameSubj {
+        font-size: 13px;
+    }
+
+    .card > div > a {
+        width: 55px;
+        height: 33px;
+    }
+
+    .card > div > a > img {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media (max-width: 420px) {
+    .notifications {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .notifications > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifications > span {
+        font-size: 19px;
+    }
+
+    .back_account > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .account_spans > span {
+        font-size: 14px;
+    }
+
+    .menu > div > a > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .menu > div > a > span {
+        font-size: 19px;
+    }
+
+    .menu_accoun > a > img {
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+    }
+
+    main {
+        left: 85px;
+        width: calc(100% - 85px);
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .card {
+        width: 240px;
+        height: 300px;
+        border-radius: 30px;
+    }
+
+    .card > img {
+        width: 90px;
+        height: 90px;
+        margin-bottom: 15px;
+    }
+
+    .fioLect {
+        font-size: 18px;
+    }
+
+    .nameSubj {
+        font-size: 12px;
+    }
+
+    .card > div > a {
+        width: 45px;
+        height: 30px;
+    }
+
+    .card > div > a > img {
+        width: 22px;
+        height: 22px;
+    }
+}

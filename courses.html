@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Предметы</title>
+    <link rel="icon" type="image/png" href="/icons/Траектория (black).png">
+    <link rel="stylesheet" href="courses_style.css">
+    <link rel="stylesheet" href="courses_media.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="notifications">
+                <img src="/icons/Уведомление (black).png" alt="Уведомления">
+                <span id="menu_notifications" class="span_hide">Уведомления</span>
+            </div>
+            <div class="menu">
+                <div class="menu_account">
+                    <a href="/account.html">
+                        <img id="menuAccount" class="" src="/icons/Аватарка (orange).png" alt="Аккаунт">
+                        <div id="div_menuAccount" class="back_account span_hide">
+                            <img src="/icons/Аватарка (orange).png" alt="Аккаунт">
+                            <div class="account_spans">
+                                <span class="account_fi">Крупенёва Дарья</span>
+                                <span class="account_email">krupeneva.d@grp.ru</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="menu_pages" class="menu_pages">
+                    <a href="#">
+                        <img src="/icons/Календарь (black).png" alt="Календарь">
+                        <span id="menuCalendar" class="span_hide">Календарь</span>
+                    </a>
+                    <a href="/courses.html">
+                        <img src="/icons/Траектория (orаnge).png" alt="Предметы">
+                        <span id="menuCourses" class="span_hide" style="color: #F9844F;">Предметы</span>
+                    </a>
+                    <a href="/attestation.html">
+                        <img src="/icons/Аттестация (black).png" alt="Аттестация">
+                        <span id="menuGrades" class="span_hide">Аттестация</span>
+                    </a>
+                    <a href="/lecturer.html">
+                        <img src="/icons/Преподаватель (black).png" alt="Преподаватели">
+                        <span id="menuTeachers" class="span_hide">Преподаватели</span>
+                    </a>
+                </div>
+                <div id="menu_settings" class="menu_settings">
+                    <hr>
+                    <a href="#">
+                        <img src="/icons/Настройки (black).png" alt="Настройки">
+                        <span id="menuSettings" class="span_hide">Настройки</span>
+                    </a>
+                    <a href="/login.html">
+                        <img src="/icons/Выход (black).png" alt="Выход">
+                        <span id="menuLogout" class="span_hide">Выход</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="heading">
+                <h1>Предметы</h1>
+            </div>
+            <div class="courses">
+                <h2>Текущие</h2>
+                <div class="slider">
+                    <div id="prevArrow_Present" class="arrow">
+                        <img src="/icons/Предыдущий (black).png" alt="Предыдущий">
+                    </div>
+                    <div class="cards_wrapper">
+                        <div id="cardsPresent" class="cards_present">
+                            <div id="cardA" class="card cardA">
+                                <img class="photo_course" src="/images/Вычислительная математика.png" alt="Вычислительная математика">
+                                <span class="name_course">Вычислительная математика</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>90ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardB" class="card cardB">
+                                <img class="photo_course" src="/images/РКЧИР.png" alt="Разработка клиентских частей интернет ресурсов">
+                                <span class="name_course">Разработка клиентских частей и...</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>90ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardC" class="card cardC">
+                                <img class="photo_course" src="/images/Джава.png" alt="Программирование на языке Джава">
+                                <span class="name_course">Программирование на языке Джава</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>108ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardD" class="card cardD">
+                                <img class="photo_course" src="/images/Экономическая культура.png" alt="Экономическая культура">
+                                <span class="name_course">Экономическая культура</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>54ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardE" class="card cardE card_none">
+                                <img class="photo_course" src="/images/Философия.jpg" alt="Философия">
+                                <span class="name_course">Философия</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>90ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardF" class="card cardF card_none">
+                                <img class="photo_course" src="/images/Конфигурационное управление.jpg" alt="Конфигурационное управление">
+                                <span class="name_course">Конфигурационное управление</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>90ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nextArrow_Present" class="arrow arrow2">
+                        <img src="/icons/Следующий (black).png" alt="Следующий">
+                    </div>
+                </div>
+                <h2>Прошедшие</h2>
+                <div class="slider">
+                    <div id="prevArrow_Past" class="arrow">
+                        <img src="/icons/Предыдущий (black).png" alt="Предыдущий">
+                    </div>
+                    <div class="cards_wrapper">
+                        <div id="cardsPast" class="cards_past">
+                            <div id="cardG" class="card cardG">
+                                <img class="photo_course" src="/images/Физика.png" alt="Физика">
+                                <span class="name_course">Физика</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>198ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>5/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardH" class="card cardH">
+                                <img class="photo_course" src="/images/ООП.png" alt="Объектно-ориентированное программирование">
+                                <span class="name_course">Объектно-ориентированное про...</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>126ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>5/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardI" class="card cardI">
+                                <img class="photo_course" src="/images/ИИ.png" alt="Искусственный интеллект">
+                                <span class="name_course">Искусственный интеллект</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>54ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>зач/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardJ" class="card cardJ">
+                                <img class="photo_course" src="/images/Право.png" alt="Правоведение">
+                                <span class="name_course">Правоведение</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>54ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>зач/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardK" class="card cardK card_none">
+                                <img class="photo_course" src="/images/Информатика.jpeg" alt="Информатика">
+                                <span class="name_course">Информатика</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>72ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>5/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardL" class="card cardL card_none">
+                                <img class="photo_course" src="/images/Линейная алгебра и аналитическая геометрия.jpg" alt="Линейная алгебра и аналитическая геометрия">
+                                <span class="name_course">Линейная алгебра и аналитическ...</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>180ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>5/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nextArrow_Past" class="arrow arrow2">
+                        <img src="/icons/Следующий (black).png" alt="Следующий">
+                    </div>
+                </div>
+                <h2>Предстоящие</h2>
+                <div class="slider">
+                    <div id="prevArrow_Future" class="arrow">
+                        <img src="/icons/Предыдущий (black).png" alt="Предыдущий">
+                    </div>
+                    <div class="cards_wrapper">
+                        <div id="cardsFuture" class="cards_future">
+                            <div id="cardM" class="card cardM">
+                                <img class="photo_course" src="/images/Анализ и концептуальное моделирование систем.png" alt="Анализ и концептуальное моделирование систем">
+                                <span class="name_course">Анализ и концептуальное модели...</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>90ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardN" class="card cardN">
+                                <img class="photo_course" src="/images/Настройка и администрирование сервисного программного обеспечения.png" alt="Настройка и администрирование сервисного программного обеспечения">
+                                <span class="name_course">Настройка и администрирование...</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>90ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardO" class="card cardO">
+                                <img class="photo_course" src="/images/Программирование на языке Питон.png" alt="Программирование на языке Питон">
+                                <span class="name_course">Программирование на языке Питон</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>126ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardP" class="card cardP">
+                                <img class="photo_course" src="/images/Теория вероятностей и математическая статистика.jpg" alt="Теория вероятностей и математическая статистика">
+                                <span class="name_course">Теория вероятностей и математ...</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>72ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardQ" class="card cardQ card_none">
+                                <img class="photo_course" src="/images/Проектирование баз данных.png" alt="Проектирование баз данных">
+                                <span class="name_course">Проектирование баз данных</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>72ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/5</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="cardR" class="card cardR card_none">
+                                <img class="photo_course" src="/images/Социальная психология и педагогика.jpg" alt="Социальная психология и педагогика">
+                                <span class="name_course">Социальная психология и педаго...</span>
+                                <div class="info_course">
+                                    <div>
+                                        <img src="/icons/Таймер (black).png" alt="Продолжительность курса">
+                                        <span>54ч</span>
+                                    </div>
+                                    <div>
+                                        <img src="/icons/Звезда (black).png" alt="Оценка">
+                                        <span>-/зач</span>
+                                    </div>
+                                    <a class="info_btn" href="#">
+                                        <img src="/icons/Подробнее (white).png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="nextArrow_Future" class="arrow arrow2">
+                        <img src="/icons/Следующий (black).png" alt="Следующий">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="menu_script.js"></script>
+    <script src="slider_present_script.js"></script>
+    <script src="slider_past_script.js"></script>
+    <script src="slider_future_script.js"></script>
+</body></html>
+

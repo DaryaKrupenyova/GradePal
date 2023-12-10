@@ -1,0 +1,675 @@
+@media (max-width: 1720px) {
+    .block1 {
+        padding-right: 30%;
+    }
+
+    .block2 {
+        padding-right: 15%;
+    }
+
+    .block3 {
+        padding-right: 55%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .choose_ava {
+        right: 300px;
+    }
+}
+
+@media (max-width: 1525px) {
+    .block3 {
+        padding-right: 50%;
+    }
+}
+
+@media (max-width: 1480px) {
+    .block1 {
+        padding-right: 25%;
+    }
+}
+
+@media (max-width: 1450px) {
+    .switch > div > div > img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .switch > div > div > span {
+        font-size: 18px;
+    }
+
+    .choose_ava {
+        right: 200px;
+    }
+
+    .choose_ava > img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .input-file > span {
+        padding: 13px 20px;
+
+        font-size: 18px;
+    }
+
+    .first_block > div > label {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .first_block > div > input {
+        font-size: 17px;
+    }
+
+    .second_block > div > label {
+        font-size: 18px;
+    }
+
+    .second_block > div > input {
+        font-size: 17px;
+    }
+
+    .third_block > span {
+        font-size: 18px;
+    }
+
+    .third_block > div > span {
+        font-size: 18px;
+    }
+
+    .fourth_block > label {
+        font-size: 18px;
+    }
+
+    .data_input {
+        max-width: 40px;
+
+        font-size: 17px;
+    }
+
+    .year_input {
+        max-width: 55px;
+
+        font-size: 17px;
+    }
+
+    select {
+        padding: 15px 25px;
+
+        background-position: calc(100% - 12px) center;
+
+        font-size: 17px;
+    }
+
+    .fifth_block > label {
+        font-size: 18px;
+    }
+
+    .fifth_block > input {
+        font-size: 17px;
+    }
+
+    .save_btn {
+        font-size: 21px;
+    }
+
+    .block1 {
+        padding-right: 20%;
+    }
+
+    .block1 > div > label {
+        font-size: 18px;
+    }
+
+    .group {
+        font-size: 17px;
+    }
+
+    .personal_number {
+        font-size: 17px;
+    }
+
+    .course {
+        font-size: 17px;
+    }
+
+    .type_of_educational_programm {
+        font-size: 17px;
+    }
+
+    .block2 > div > label {
+        font-size: 18px;
+    }
+
+    .forming_unit {
+        font-size: 17px;
+    }
+
+    .producing_division {
+        font-size: 17px;
+    }
+
+    .year_of_admission {
+        font-size: 17px;
+    }
+
+    .block3 {
+        padding-right: 45%;
+    }
+
+    .block3 > div > label {
+        font-size: 18px;
+    }
+
+    .аssigned_qualification {
+        font-size: 17px;
+    }
+
+    .form_of_development {
+        font-size: 17px;
+    }
+
+    .block_1 > div > label {
+        font-size: 18px;
+    }
+
+    .block_2 > div > label {
+        font-size: 18px;
+    }
+
+    .password {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1370px) {
+    .block1 {
+        padding-right: 10%;
+    }
+
+    .block2 {
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 1305px) {
+    .block2 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1270px) {
+    .switch {
+        padding-right: 25%;
+    }
+
+    .choose_ava {
+        right: 100px;
+    }
+}
+
+@media (max-width: 1230px) {
+    .block1 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 1220px) {
+    .choose_ava {
+        right: 200px;
+    }
+
+    .first_block {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25px;
+    }
+
+    .fifth_block {
+        padding-right: 40%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .block3 {
+        padding-right: 30%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .block1 {
+        grid-template-columns: auto auto auto;
+        row-gap: 20px;
+    }
+
+    .block2 {
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .choose_ava {
+        right: 100px;
+    }
+
+    .block2 {
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 970px) {
+    .block1 {
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+    }
+
+    .block3 {
+        padding-right: 15%;
+    }
+}
+
+@media (max-width: 960px) {
+    .switch {
+        padding-right: 10%;
+    }
+
+    .choose_ava {
+        right: 50px;
+    }
+
+    .fifth_block {
+        padding-right: 20%;
+    }
+}
+
+@media (max-width: 890px) {
+    .first_block {
+        margin-top: 180px;
+    }
+
+    .choose_ava {
+        top: 135px;
+        right: 300px;
+    }
+
+    .block3 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 790px) {
+    .switch {
+        padding-right: 2%;
+
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: flex-start;
+        row-gap: 10px;
+        column-gap: 40px;
+    }
+
+    .choose_ava {
+        top: 175px;
+        right: 300px;
+    }
+
+    .fifth_block {
+        padding-right: 10%;
+    }
+}
+
+@media (max-width: 750px) {
+    .block1 {
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+
+    .block3 {
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+}
+
+@media (max-width: 720px) {
+    .notifications {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .notifications > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .notifications > span {
+        font-size: 20px;
+    }
+
+    .back_account > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .account_spans > span {
+        font-size: 15px;
+    }
+
+    .menu > div > a > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu > div > a > span {
+        font-size: 20px;
+    }
+
+    .menu_account > a > img {
+        width: 45px;
+        height: 45px;
+        margin-top: 6px;
+    }
+
+    main {
+        left: 90px;
+        width: calc(100% - 90px);
+    }
+
+    .fourth_block {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+    .data_input {
+        margin-left: -25px;
+    }
+
+}
+
+@media (max-width: 630px) {
+    .switch {
+        padding-right: 2%;
+
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 10px;
+        column-gap: 40px;
+    }
+
+    .choose_ava > img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .input-file > span {
+        padding: 10px 15px;
+
+        font-size: 16px;
+    }
+
+    .first_block {
+        padding-right: 2%;
+
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+
+    .second_block {
+        padding-right: 2%;
+
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+
+    .choose_ava {
+        top: 225px;
+        right: 200px;
+    }
+
+    .block_2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+
+    }
+}
+
+@media (max-height: 600px) {
+    header {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 560px) {
+    .block1 > div > label {
+        font-size: 16px;
+    }
+
+    .group {
+        font-size: 15px;
+    }
+
+    .personal_number {
+        font-size: 15px;
+    }
+
+    .course {
+        font-size: 15px;
+    }
+
+    .type_of_educational_programm {
+        font-size: 15px;
+    }
+
+    .block2 > div > label {
+        font-size: 16px;
+    }
+
+    .forming_unit {
+        font-size: 15px;
+    }
+
+    .producing_division {
+        font-size: 15px;
+    }
+
+    .year_of_admission {
+        font-size: 15px;
+    }
+
+    .block3 > div > label {
+        font-size: 16px;
+    }
+
+    .аssigned_qualification {
+        font-size: 15px;
+    }
+
+    .form_of_development {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .forming_unit {
+        height: 2em;
+    }
+}
+
+@media (max-width: 470px) {
+    .choose_ava {
+        top: 225px;
+        right: 120px;
+    }
+}
+
+@media (max-width: 450px) {
+    .switch > div > div > img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .switch > div > div > span {
+        font-size: 17px;
+    }
+
+    .choose_ava > img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .input-file > span {
+        padding: 10px 15px;
+
+        font-size: 16px;
+    }
+
+    .first_block > div > label {
+        font-size: 16px;
+    }
+
+    .first_block > div > input {
+        font-size: 15px;
+    }
+
+    .second_block > div > label {
+        font-size: 16px;
+    }
+
+    .second_block > div > input {
+        font-size: 15px;
+    }
+
+    .third_block > span {
+        font-size: 16px;
+    }
+
+    .third_block > div > span {
+        font-size: 16px;
+    }
+
+    .fourth_block > label {
+        font-size: 16px;
+    }
+
+    .data_input {
+        max-width: 25px;
+
+        font-size: 15px;
+    }
+
+    .year_input {
+        max-width: 50px;
+        margin-left: 7px;
+
+        font-size: 15px;
+    }
+
+    select {
+        padding: 15px 20px;
+        margin-left: 7px;
+
+        background-position: calc(100% - 10px) center;
+
+        font-size: 15px;
+    }
+
+    .fifth_block > label {
+        font-size: 16px;
+    }
+
+    .fifth_block > input {
+        font-size: 15px;
+    }
+
+    .save_btn {
+        font-size: 18px;
+    }
+
+    .block_1 > div > label {
+        font-size: 16px;
+    }
+
+    .block_2 > div > label {
+        font-size: 16px;
+    }
+
+    .password {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 446px) {
+    .type_of_educational_programm {
+        height: 2em;
+    }
+}
+
+@media (max-width: 420px) {
+    .notifications {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .notifications > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifications > span {
+        font-size: 19px;
+    }
+
+    .back_account > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .account_spans > span {
+        font-size: 14px;
+    }
+
+    .menu > div > a > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .menu > div > a > span {
+        font-size: 19px;
+    }
+
+    .menu_account > a > img {
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+    }
+
+    main {
+        left: 85px;
+
+        width: calc(100% - 85px);
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .choose_ava {
+        top: 225px;
+        right: 70px;
+    }
+}
+
+@media (max-width: 383px) {
+    .forming_unit {
+        height: 3em;
+    }
+}

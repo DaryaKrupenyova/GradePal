@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аккаунт</title>
+    <link rel="icon" type="image/png" href="/icons/Аватарка (black).png">
+    <link rel="stylesheet" href="account_style.css">
+    <link rel="stylesheet" href="account_media.css">
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="notifications">
+                <img src="/icons/Уведомление (black).png" alt="Уведомления">
+                <span id="menu_notifications" class="span_hide">Уведомления</span>
+            </div>
+            <div class="menu">
+                <div class="menu_account">
+                    <a href="/account.html">
+                        <img id="menuAccount" class="" src="/icons/Аватарка (orange).png" alt="Аккаунт">
+                        <div id="div_menuAccount" class="back_account span_hide">
+                            <img src="/icons/Аватарка (orange).png" alt="Аккаунт">
+                            <div class="account_spans">
+                                <span class="account_fi">Крупенёва Дарья</span>
+                                <span class="account_email">krupeneva.d@grp.ru</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div id="menu_pages" class="menu_pages">
+                    <a href="#">
+                        <img src="/icons/Календарь (black).png" alt="Календарь">
+                        <span id="menuCalendar" class="span_hide">Календарь</span>
+                    </a>
+                    <a href="/courses.html">
+                        <img src="/icons/Траектория (black).png" alt="Предметы">
+                        <span id="menuCourses" class="span_hide">Предметы</span>
+                    </a>
+                    <a href="/attestation.html">
+                        <img src="/icons/Аттестация (black).png" alt="Аттестация">
+                        <span id="menuGrades" class="span_hide">Аттестация</span>
+                    </a>
+                    <a href="/lecturer.html">
+                        <img src="/icons/Преподаватель (black).png" alt="Преподаватели">
+                        <span id="menuTeachers" class="span_hide">Преподаватели</span>
+                    </a>
+                </div>
+                <div id="menu_settings" class="menu_settings">
+                    <hr>
+                    <a href="#">
+                        <img src="/icons/Настройки (black).png" alt="Настройки">
+                        <span id="menuSettings" class="span_hide">Настройки</span>
+                    </a>
+                    <a href="/login.html">
+                        <img src="/icons/Выход (black).png" alt="Выход">
+                        <span id="menuLogout" class="span_hide">Выход</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="heading">
+                <h1>Аккаунт</h1>
+            </div>
+            <div class="account">
+                <div class="switch">
+                    <div id="personal_switch">
+                        <div>
+                            <img src="/icons/Аватарка (black).png" alt="Личная информация">
+                            <span>Личная информация</span>
+                        </div>
+                        <hr id="personal_hr" style="opacity: 1">
+                    </div>
+                    <div id="education_switch">
+                        <div>
+                            <img src="/icons/Образование (black).png" alt="Образование">
+                            <span>Образование</span>
+                        </div>
+                        <hr id="education_hr" style="opacity: 0">
+                    </div>
+                    <div id="security_switch">
+                        <div>
+                            <img src="/icons/Замок (black).png" alt="Безопастность">
+                            <span>Безопастность</span>
+                        </div>
+                        <hr id="security_hr" style="opacity: 0">
+                    </div>
+                </div>
+                <div id="personal_block" style="display: block;">
+                    <form>
+                        <div class="choose_ava">
+                            <img src="/icons/Аватарка (orange).png" alt="Аватарка">
+                            <label class="input-file">
+                                <input type="file" name="file">
+                                <span>Выберите файл</span>
+                            </label>
+                        </div>
+                        <div class="first_block">
+                            <div>
+                                <label>Фамилия</label>
+                                <input type="text" value="Крупенёва">
+                            </div>
+                            <div>
+                                <label>Имя</label>
+                                <input type="text" value="Дарья">
+                            </div>
+                            <div>
+                                <label>Отчество</label>
+                                <input type="text" value="Андреевна">
+                            </div>
+                        </div>
+                        <div class="second_block">
+                            <div>
+                                <label>Почта</label>
+                                <input type="email" value="krupeneva.d@grp.ru">
+                            </div>
+                            <div>
+                                <label>Телефон</label>
+                                <input type="tel" value="+7 (977) 968-73-17">
+                            </div>
+                        </div>
+                        <div class="third_block">
+                            <span>Пол:</span>
+                            <div id="female">
+                                <span>Ж</span>
+                            </div>
+                            <div id="male">
+                                <span>М</span>
+                            </div>
+                        </div>
+                        <div class="fourth_block">
+                            <label>Дата рождения:</label>
+                            <div>
+                                <input class="data_input" type="text" value="26">
+                                <select>
+                                    <option value="January">Январь</option>
+                                    <option value="February">Февраль</option>
+                                    <option value="March">Март</option>
+                                    <option value="April">Апрель</option>
+                                    <option value="May">Май</option>
+                                    <option value="June">Июнь</option>
+                                    <option value="July">Июль</option>
+                                    <option value="August">Август</option>
+                                    <option value="September">Сентябрь</option>
+                                    <option value="October">Октябрь</option>
+                                    <option value="November">Ноябрь</option>
+                                    <option value="December" selected>Декабрь</option>
+                                </select>
+                                <input class="year_input" type="text" value="2003г.">
+                            </div>
+                        </div>
+                        <div class="fifth_block">
+                            <label>Адрес проживания:</label>
+                            <input type="text" value="Москва, 109469, ул. Перервинский б-р, 15к2, 258">
+                        </div>
+                        <button class="save_btn" type="submit"> Сохранить</button>
+                    </form>
+                </div>
+                <div id="education_block" style="display: none;">
+                    <div class="block1">
+                        <div>
+                            <label>Группа</label>
+                            <input class="group" type="text" value="ИКБО-36-22" disabled>
+                        </div>
+                        <div>
+                            <label>Личный номер</label>
+                            <input class="personal_number" type="text" value="22И1690" disabled>
+                        </div>
+                        <div>
+                            <label>Вид образовательной программы</label>
+                            <textarea class="type_of_educational_programm" type="text" disabled>Программная инженерия (РППиПИС)</textarea>
+                        </div>
+                        <div>
+                            <label>Курс</label>
+                            <input class="course" type="text" value="2" disabled>
+                        </div>
+
+                    </div>
+                    <div class="block2">
+                        <div>
+                            <label>Формирующее подразделение</label>
+                            <textarea class="forming_unit" type="text" disabled>Институт информационных технологий</textarea>
+                        </div>
+                        <div>
+                            <label>Выпускающее подразделение</label>
+                            <input class="producing_division" type="text" value="Кафедра ИППО" disabled>
+                        </div>
+                        <div>
+                            <label>Год приема</label>
+                            <input class="year_of_admission" type="text" value="2022г." disabled>
+                        </div>
+                    </div>
+                    <div class="block3">
+                        <div>
+                            <label>Присваиваемая квалификация</label>
+                            <input class="аssigned_qualification" type="text" value="Бакалавриат" disabled>
+                        </div>
+                        <div>
+                            <label>Форма освоения</label>
+                            <input class="form_of_development" type="text" value="Очная" disabled>
+                        </div>
+                    </div>
+                </div>
+                <div id="security_block" style="display: none;">
+                    <form>
+                        <div class="block_1">
+                            <div>
+                                <label>Старый пароль</label>
+                                <input class="password" type="password">
+                            </div>
+                        </div>
+                        <div class="block_2">
+                            <div>
+                                <label>Новый пароль</label>
+                                <input class="password" type="password">
+                            </div>
+                            <div>
+                                <label>Повторите пароль</label>
+                                <input class="password" type="password">
+                            </div>
+                        </div>
+                        <button class="save_btn" type="submit"> Сохранить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+    <script src="menu_script.js"></script>
+    <script src="change_account_block.js"></script>
+    <script src="change_sex_in_account.js"></script>
+</body></html>
+

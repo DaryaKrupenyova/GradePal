@@ -1,0 +1,236 @@
+@media (max-width: 1500px) {
+    .cards_present {
+        width: 134%;
+    }
+
+    .cards_past {
+        width: 134%;
+    }
+
+    .cards_future {
+        width: 134%;
+    }
+}
+
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 1.6em;
+    }
+
+    .arrow > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .name_course {
+        font-size: 0.9em;
+    }
+
+    .info_course > div > img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .info_course > div > span {
+        font-size: 0.9em;
+    }
+
+    .info_course > a {
+        width: 70px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .cards_present {
+        width: 200%;
+    }
+
+    .cards_past {
+        width: 200%;
+    }
+
+    .cards_future {
+        width: 200%;
+    }
+}
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 1.4em;
+    }
+
+    .arrow > img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .name_course {
+        font-size: 0.8em;
+    }
+
+    .info_course > div > img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .info_course > div > span {
+        font-size: 0.8em;
+    }
+
+    .info_course > a {
+        width: 60px;
+    }
+}
+
+@media (max-width: 750px) {
+    .cards_present {
+        width: 400%;
+    }
+
+    .cards_past {
+        width: 400%;
+    }
+
+    .cards_future {
+        width: 400%;
+    }
+}
+
+@media (max-width: 720px) {
+    .notifications {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .notifications > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .notifications > span {
+        font-size: 20px;
+    }
+
+    .back_account > img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .account_spans > span {
+        font-size: 15px;
+    }
+
+    .menu > div > a > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu > div > a > span {
+        font-size: 20px;
+    }
+
+    .menu_account > a > img {
+        width: 45px;
+        height: 45px;
+        margin-top: 6px;
+    }
+
+    main {
+        left: 90px;
+        width: calc(100% - 90px);
+    }
+}
+
+@media (max-height: 600px) {
+    header {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .courses {
+        padding: 10px;
+
+        display: grid;
+        grid-template-rows: auto auto auto;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .arrow > img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .name_course {
+        font-size: 0.7em;
+    }
+
+    .info_course > div > img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .info_course > div > span {
+        font-size: 0.7em;
+    }
+
+    .info_course > a {
+        width: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .notifications {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .notifications > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notifications > span {
+        font-size: 19px;
+    }
+
+    .back_account > img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .account_spans > span {
+        font-size: 14px;
+    }
+
+    .menu > div > a > img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .menu > div > a > span {
+        font-size: 19px;
+    }
+
+    .menu_account > a > img {
+        width: 40px;
+        height: 40px;
+        margin-top: 6px;
+    }
+
+    main {
+        left: 85px;
+        width: calc(100% - 85px);
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+}

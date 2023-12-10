@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+
+    font-family: Comfortaa;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    height: 100vh;
+
+    z-index: 10;
+}
+
+nav {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #fff;
+}
+
+.notifications {
+    height: 70px;
+    min-height: 70px;
+
+    margin-left: 25px;
+    margin-right: 25px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.notifications > img {
+    width: 50px;
+    height: 50px;
+}
+
+.notifications > span {
+    font-size: 22px;
+    font-weight: 400;
+
+    color: #000;
+}
+
+.menu {
+    flex: 1 1 auto;
+    padding: 15px 0;
+    min-height: 530px;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+
+    box-sizing: border-box;
+
+    background-color: #F0F0F0;
+}
+
+.back_account {
+    padding: 5px 5px;
+    margin: 0 4%;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.back_account > img {
+    width: 50px;
+    height: 50px;
+}
+
+.account_spans {
+    margin: 6px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.account_spans > span {
+    font-size: 16px;
+    font-weight: 200;
+
+    color: #000;
+}
+
+.menu > div {
+    margin-left: 25px;
+    margin-right: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu > div > a {
+    display: flex;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.menu > div > a > img {
+    width: 45px;
+    height: 45px;
+}
+
+.menu > div > a > span {
+    margin-left: 10px;
+
+    font-size: 22px;
+    font-weight: 400;
+
+    color: #000;
+}
+
+.menu > div > hr {
+    width: 100%;
+    height: 2px;
+    border: 0px;
+
+    background-color: #DEDEDE;
+}
+
+.menu_account {
+    display: flex;
+
+}
+
+.menu_account > a {
+    text-decoration: none;
+}
+
+.menu_account > a > img {
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+}
+
+main {
+    position: relative;
+    left: 100px;
+    top: 0;
+
+    width: calc(100% - 100px);
+}
+
+.heading {
+    height: 70px;
+    padding: 1.2em 3%;
+
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 2em;
+    font-weight: 700;
+
+    color: #000;
+}
+
+.courses {
+    padding: 25px;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+h2 {
+    margin: 0;
+
+    font-size: 1.8em;
+    font-weight: 700;
+
+    color: #000;
+}
+
+.slider {
+    height: 100%;
+    padding: 0 2%;
+
+    display: grid;
+    grid-template-columns: 1fr 20fr 1fr;
+    overflow: hidden;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.arrow {
+    display: flex;
+}
+
+.arrow2 {
+    justify-content: flex-end;
+}
+
+.arrow > img {
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+}
+
+.cards_wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cards_present {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "A B C D";
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cards_past {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "G H I J";
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cards_future {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "M N O P";
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 215px;
+    padding: 3% 4%;
+    margin: 4%;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cardA {
+    grid-area: A;
+}
+
+.cardB {
+    grid-area: B;
+}
+
+.cardC {
+    grid-area: C;
+}
+
+.cardD {
+    grid-area: D;
+}
+
+.cardE {
+    grid-area: E;
+}
+
+.cardF {
+    grid-area: F;
+}
+
+.cardG {
+    grid-area: G;
+}
+
+.cardH {
+    grid-area: H;
+}
+
+.cardI {
+    grid-area: I;
+}
+
+.cardJ {
+    grid-area: J;
+}
+
+.cardK {
+    grid-area: K;
+}
+
+.cardL {
+    grid-area: L;
+}
+
+.cardM {
+    grid-area: M;
+}
+
+.cardN {
+    grid-area: N;
+}
+
+.cardO {
+    grid-area: O;
+}
+
+.cardP {
+    grid-area: P;
+}
+
+.cardQ {
+    grid-area: Q;
+}
+
+.cardR {
+    grid-area: R;
+}
+
+.card_none {
+    display: none;
+}
+
+.photo_course {
+    width: 100%;
+    height: 120px;
+    border-radius: 25px;
+
+    object-fit: cover;
+}
+
+.name_course {
+    width: 100%;
+
+    font-size: 1em;
+    font-weight: 200;
+
+    color: #000;
+}
+
+.info_course {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 4fr 7fr 4fr;
+    align-items: center;
+}
+
+.info_course > div > img {
+    width: 20px;
+    height: 20px;
+}
+
+.info_course > div > span {
+    font-size: 1em;
+    font-weight: 200;
+
+    color: #000;
+}
+
+.info_course > a {
+    width: 80px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F9844F;
+}
+
+.span_hide {
+    display: none;
+}
