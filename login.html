@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Авторизация</title>
-    <link rel="icon" type="image/png" href="/icons/letterG.png"> 
+    <link rel="icon" type="image/png" href="/icons/letterG.png">
     <link rel="stylesheet" href="login_style.css">
     <link rel="stylesheet" href="login_media.css">
 </head>
@@ -18,21 +18,19 @@
     <main>
         <div>
             <h1>Вход</h1>
-            <form>
-                <input type="text" placeholder="Логин">
-                <input type="text" placeholder="Пароль">
+            <form onsubmit="window.location.href = 'courses.html'; return false;">
+                <input type="text" placeholder="Логин" required>
+                <input type="password" placeholder="Пароль" required>
                 <div>
                     <input type="checkbox" class="custom-checkbox" id="happy" checked>
                     <label for="happy">Сохранить</label>
                 </div>
-                <a href="/courses.html">Войти</a>
+                <button type="submit">Войти</button>
             </form>
         </div>
     </main>
 
     <footer>
     </footer>
-</body>
-
-</html>
+</body></html>
 
